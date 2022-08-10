@@ -1,0 +1,190 @@
+.site-content {
+  position: relative;
+  top: 80px;
+  .header {
+    .title {
+      h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #1e2330;
+        line-height: 100px;
+      }
+    }
+    .categories {
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 10px;
+      a {
+        font-size: 16px;
+        color: #1e2330;
+        text-decoration: none;
+      }
+      button {
+        cursor: pointer;
+        height: 50px;
+        width: fit-content;
+        padding: 12px 24px;
+        border: 1px solid #bebebe;
+        border-radius: 6px;
+        &:nth-child(2n + 1) {
+          border-radius: 10000px;
+        }
+        &:hover {
+          background-color: #e0e2da;
+        }
+      }
+    }
+  }
+  .articles-container {
+    .article-section {
+      .article-content {
+        display: flex;
+        justify-content: space-between;
+        // flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        .article {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          gap: 15px;
+          cursor: pointer;
+          width: 500px;
+          height: 600px;
+          margin: 50px 0 50px 0;
+          .image-container {
+            width: 100%;
+            height: 80%;
+            border-radius: 20px;
+            overflow: hidden;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          &:nth-child(2n + 2) {
+            .image-container {
+              border-radius: 60px;
+            }
+          }
+          .article-text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .category {
+              font-size: 14px;
+              font-weight: 400;
+              color: #bbbbbb;
+              &:hover {
+                text-decoration: underline;
+              }
+
+              cursor: pointer;
+            }
+            .title {
+              font-size: 30px;
+              font-weight: bold;
+              color: #1e2330;
+              text-decoration: none;
+              letter-spacing: -0.01rem;
+              cursor: pointer;
+            }
+          }
+          &:hover {
+            .title {
+              text-decoration: underline;
+            }
+          }
+          .timestamp {
+            font-size: 13px;
+            font-weight: 400;
+            color: #bbbbbb;
+          }
+        }
+      }
+      .section-head {
+        h2 {
+          font-size: 56px;
+          text-align: center;
+          letter-spacing: -0.2rem;
+          padding: 50px;
+        }
+      }
+      .article-head {
+        h3 {
+          font-size: 56px;
+          letter-spacing: -0.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .site-content {
+    .articles-container {
+      .article-section {
+        .article-content {
+          .article {
+            width: 273px;
+            height: 400px;
+            .article-text {
+              .title {
+                width: 100%;
+                font-size: 15px;
+                font-weight: bold;
+                color: #1e2330;
+                text-decoration: none;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        .article-head {
+          h3 {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width: 1200px) {
+  .site-content {
+    .header {
+      // background-color: red;
+      .title {
+        h1 {
+          font-size: 100px;
+          text-align: center;
+          font-weight: 800;
+          letter-spacing: -0.1rem;
+        }
+      }
+    }
+    .articles-container {
+      .article-section {
+        .article-head {
+          font-size: 46px;
+        }
+        .article-content {
+          .title {
+            width: 100%;
+            font-size: 15px;
+            font-weight: bold;
+            color: #1e2330;
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "thumbnail": "https://website.linktr.ee/static/b64b658698ab59e6039ebfdd9ce2da5e/98363/Linktree-MobileApp-BlogHeader-1600x900px.avif",
+      "title": "See what technology is doing to the world",
+      "body": "This is my first Tech post",
+      "author": "John Doe",
+      "createdAt": "2016-01-01T00:00:00.000Z",
+      "category": "Technology"
+    },
+    {
+      "id": 2,
+      "thumbnail": "https://website.linktr.ee/static/e059f49d7abb6a1f4f3afafad9279745/a30f3/AAPI-ABG-01.avif",
+      "title": "Meet the new CEO of Google",
+      "body": "This is my second post",
+      "author": "Jane Doe",
+      "createdAt": "2017-01-01T00:00:00.000Z",
+      "category": "Creator"
+    },
+    {
+      "id": 3,
+      "thumbnail": "https://website.linktr.ee/static/6c0626da105165f0cc7a0113ee682044/a30f3/Image-from-iOS-2.avif",
+      "title": "See how to open a new bank account",
+      "body": "This is my third post",
+      "author": "John Doe",
+      "createdAt": "2018-01-01T00:00:00.000Z",
+      "category": "Crap News"
+    },
+    {
+      "id": 4,
+      "thumbnail": "https://website.linktr.ee/static/bc174e4e4ec0d483769f20d6da129be1/a30f3/SistersOfYoga_Blog-01.avif",
+      "title": "How Pepsi is going to change the world",
+      "body": "This is my fourth post",
+      "author": "Jane Doe",
+      "createdAt": "2019-01-01T00:00:00.000Z",
+      "category": "Creator"
+    },
+    {
+      "id": 5,
+      "thumbnail": "https://website.linktr.ee/static/11277477c61a701ace699ce9e53df016/a30f3/Blog-Web3-NFT-Cover.avif",
+      "title": "Max leaks twitter source code",
+      "body": "This is my fifth post",
+      "author": "John Doe",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": 6,
+      "thumbnail": "https://website.linktr.ee/static/e415a6e60d879ff086059490fd9eec0d/98363/lsp_jason-rosewell-60014-unsplash_310519-080114.avif",
+      "title": "Elon Musk is at it again, this man does not give up",
+      "body": "This is my sixth post",
+      "author": "Jane Doe",
+      "createdAt": "2021-01-01T00:00:00.000Z",
+      "category": "Technology"
+    },
+    {
+      "id": 7,
+      "thumbnail": "https://website.linktr.ee/static/e5b7efb88cb8cb0f42549abfd6b903e6/e577b/Game-Streaming-Viewership-01-1.avif",
+      "title": "New Ryzen CPU coming soon: its going to be insanely fast, leaks shows ",
+      "body": "This is my seventh post",
+      "author": "John Doe",
+      "createdAt": "2022-01-01T00:00:00.000Z",
+      "category": "Technology"
+    },
+    {
+      "id": 8,
+      "thumbnail": "https://website.linktr.ee/static/e454f927d480322260f79ceee6dca3da/a30f3/analytics-watch.avif",
+      "title": "How to make money as an Affliate Marketer: Referral system, bring two people",
+      "body": "This is my eighth post",
+      "author": "Jane Doe",
+      "createdAt": "2015-01-01T00:00:00.000Z",
+      "category": "Crap News"
+    },
+    {
+      "id": 9,
+      "thumbnail": "https://website.linktr.ee/static/5b1a347c572ef2977d7a4f6da3bc2404/98363/IMG_9668-scaled.avif",
+      "title": "The latest version of the new Apple Watch is amazing, Bill Gates confirmed",
+      "body": "This is my ninth post",
+      "author": "John Doe",
+      "createdAt": "2014-01-01T00:00:00.000Z",
+      "category": "Crap News"
+    },
+    {
+      "id": 10,
+      "thumbnail": "https://website.linktr.ee/static/8b7932529a7aa167ff55adf2ef55f385/a30f3/Blog-GenZ-Image-01.avif",
+      "title": "Meet Peter Thiel, the new CEO of Facebook",
+      "body": "This is my tenth post",
+      "author": "Jane Doe",
+      "createdAt": "2013-01-01T00:00:00.000Z",
+      "category": "Creator"
+    },
+    {
+      "id": 11,
+      "thumbnail": "https://website.linktr.ee/static/53fab94451581c4ff7c6d53cb43b06bf/e577b/Community-Creator-Half.avif",
+      "title": "Ubuntu is the new Linux, it is the best OS ever",
+      "body": "This is my eleventh post",
+      "author": "John Doe",
+      "createdAt": "2012-01-01T00:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": 12,
+      "thumbnail": "https://website.linktr.ee/static/740950cdf94b4485548a7f41a3b9c0d7/a30f3/PattiBakes-Blog-Image.avif",
+      "title": "Mercury is slowly becoming a habitable planet, recently studies discovered",
+      "body": "This is my twelfth post",
+      "author": "Jane Doe",
+      "createdAt": "2010-01-01T00:00:00.000Z",
+      "category": "Science"
+    },
+    {
+      "id": 13,
+      "thumbnail": "https://website.linktr.ee/static/d2e2d59ca72d6a230b1f060dc9205756/020c4/Blog-TenzingNorgay-Sam.avif",
+      "title": "Tinder provides their Codes of Conduct, they are not the best",
+      "body": "This is my thirteenth post",
+      "author": "John Doe",
+      "createdAt": "2009-01-01T00:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": 14,
+      "thumbnail": "https://website.linktr.ee/static/b6481cd08713d88b2600d1677be41724/a30f3/Coralie.avif",
+      "title": "Obsidian the black rock, the ancient knife",
+      "body": "This is my fourteenth post",
+      "author": "Jane Doe",
+      "createdAt": "2007-01-01T00:00:00.000Z",
+      "category": "Science"
+    },
+    {
+      "id": 15,
+      "thumbnail": "https://website.linktr.ee/static/a681df8dfba72a13144cbb75f425aeda/a30f3/Dan-Harris_original-2.avif",
+      "title": "Zirconium is the new element, it is the best element ever",
+      "body": "This is my fifteenth post",
+      "author": "John Doe",
+      "createdAt": "2006-01-01T00:00:00.000Z",
+      "category": "Science"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology"
+    },
+    {
+      "id": 2,
+      "name": "Creator"
+    },
+    {
+      "id": 3,
+      "name": "Crap News"
+    },
+    {
+      "id": 4,
+      "name": "Open Source"
+    },
+    {
+      "id": 5,
+      "name": "Science"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+.nav-container {
+  position: relative;
+  min-height: 20vh;
+  z-index: 10;
+  .nav-contents {
+    position: fixed;
+    top: 48px;
+    left: 0;
+    width: 100%;
+
+    padding: 0 196px 0 196px;
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 12px;
+      height: 90px;
+      width: 100%;
+      border-radius: 10000px;
+      background-color: #fff;
+
+      border: 1px solid #e6e6e6;
+      .head-title {
+        padding-left: 32px;
+
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+        .site-name {
+          font-size: 32px;
+          font-weight: bold;
+          padding-right: 100px;
+        }
+      }
+      .nav-item {
+        gap: 30px;
+      }
+      ul {
+        list-style: none;
+        li {
+          button {
+            color: #6c7166;
+            font-size: 16px;
+            height: 48px;
+            width: fit-content;
+            padding: 8px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+          }
+          &:hover {
+            border-radius: 5px;
+            background: #f3f3f1;
+          }
+        }
+      }
+      .auth-btns {
+        justify-content: center;
+        gap: 10px;
+        .auth-btn {
+          text-align: center;
+          padding: 12px;
+          height: 64px;
+          width: 100px;
+          color: #1e2330;
+          font-size: 16px;
+          font-weight: bold;
+          border-radius: 10px;
+          background-color: #eff0ec;
+
+          cursor: pointer;
+          border: none;
+          &:nth-child(2) {
+            background-color: #1e2330;
+            padding: 18px 26px 20px 26px;
+            width: max-content;
+            color: #ffffff;
+            border-radius: 10000px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .nav-container {
+    .nav-contents {
+      padding: 0 48px 0 48px;
+      .nav {
+        .head-title {
+          .site-name {
+            font-size: 24px;
+            padding-right: 40px;
+          }
+        }
+        .nav-item {
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
