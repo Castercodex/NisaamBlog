@@ -4,15 +4,44 @@ import Posts from "./Posts";
 const Home = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState([
+    {
+      id: 1,
+      name: "Technology",
+    },
+    {
+      id: 2,
+      name: "Creator",
+    },
+    {
+      id: 3,
+      name: "Crap News",
+    },
+    {
+      id: 4,
+      name: "Open Source",
+    },
+    {
+      id: 5,
+      name: "Science",
+    },
+  ]);
 
   const getCategories = async () => {
-    const response = await fetch("http://localhost:8080/categories");
-    const data = await response.json();
-    setCategories(data);
+    const response = await fetch("http://localhost:8080/categories")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`response.status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setCategories(data);
+      })
+      .catch((err) => console.log(err.message));
   };
   const getPosts = async () => {
-    const response = await fetch("http://localhost:8080/posts");
+    const response = await fetch("/article");
     const data = await response.json();
     setPosts(data);
     setLoading(false);
