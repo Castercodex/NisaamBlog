@@ -50,7 +50,7 @@ namespace NisaamBlog_Backend.Controllers
             //    }
             //}
             //return articles;
-            var articles = _dummydata.GetArticles(10);
+            var articles = _dummydata.GetArticles(20);
             return articles;
         }
     }
