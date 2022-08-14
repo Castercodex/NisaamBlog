@@ -9,7 +9,7 @@ using NisaamBlog_Backend.Services;
 namespace NisaamBlog_Backend.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/[controller]")]
     public class ArticleController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -29,27 +29,6 @@ namespace NisaamBlog_Backend.Controllers
         [HttpGet(Name = "GetArticles")]
         public IEnumerable<Article> Get()
         {
-            //var articles = new List<Article>();
-            //HttpClient client = new HttpClient();
-
-            //var response = client.GetAsync("https://newsapi.org/v2/everything?q=bitcoin&apiKey=9095ff899d0c478cb4ef87b515bedf1c").Result;
-            //var articlesResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<ArticlesResult>(response.Content.ReadAsStringAsync().Result);
-
-            //if(articlesResponse.Status == Statuses.Ok)
-            //{
-            //    foreach (var article in articlesResponse.Articles)
-            //    {
-            //        articles.Add(new Article
-            //        {
-            //            Author = article.Author,
-            //            Content = article.Content,
-            //            Image = article.UrlToImage,
-            //            Overview = article.Description,
-            //            Title = article.Title
-            //        });
-            //    }
-            //}
-            //return articles;
             var articles = _dummydata.GetArticles(20);
             return articles;
         }
