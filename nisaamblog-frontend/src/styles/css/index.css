@@ -234,7 +234,9 @@ body {
   flex-direction: column;
   gap: 10px;
   justify-content: flex-start;
+  align-items: flex-start;
   height: 20%;
+  width: 100%;
 }
 
 .site-content .articles-container .article-section .article-content .article .article-text .category {
