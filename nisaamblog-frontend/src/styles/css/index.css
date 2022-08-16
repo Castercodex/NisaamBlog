@@ -203,7 +203,7 @@ body {
 .site-content .articles-container .article-section .article-content .article {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   gap: 15px;
   cursor: pointer;
@@ -233,6 +233,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: flex-start;
+  height: 20%;
 }
 
 .site-content .articles-container .article-section .article-content .article .article-text .category {

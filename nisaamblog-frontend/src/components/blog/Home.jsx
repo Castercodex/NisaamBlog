@@ -38,10 +38,13 @@ const Home = () => {
       .then((data) => {
         setCategories(data);
       })
-      .catch((err) => console.log(err.message));
+      .catch((err) => console.log(err.message))
+      .finally(() => {
+        return response;
+      });
   };
   const getPosts = async () => {
-    const response = await fetch("/article");
+    const response = await fetch("/api/article");
     const data = await response.json();
     setPosts(data);
     setLoading(false);
