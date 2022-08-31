@@ -3,6 +3,18 @@
 <img src="./public/nisam-blog.png"  />
 
 
+# Getting Json-server UP and Running
+
+- To get json-server up and running for test purposes install json-server globally using
+- ## npm install -g json-server
+
+## Starting json-server
+
+- In this directory run the following command:
+
+====== json-server --watch ./api/db.json --routes ./api/routes.json --port 8080
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
