@@ -4,6 +4,7 @@ namespace NisaamBlog_Backend.Models
 {
     public class Article
     {
+        public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
         public string Overview { get; set; } = string.Empty;
         public string Image { get; set; } = string.Empty;
