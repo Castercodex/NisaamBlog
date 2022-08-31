@@ -41,7 +41,7 @@ namespace NisaamBlog_Backend.Services
             "I went to Marina Agadir - My Experience"
         };
 
-        public IEnumerable<Article> GetArticles(int count = 50)
+        public IEnumerable<Article> GenerateArticles(int count = 50)
         {
             if(count <= 0) count = 1;
             List<Article> articles = new List<Article>();
@@ -55,7 +55,10 @@ namespace NisaamBlog_Backend.Services
                     Country = "Morocco",
                     Image = GetRandomImage(),
                     Category = ArticleCategory.Lifestyle,
-                    Title = GetRandomTitle()
+                    Title = GetRandomTitle(),
+                    Id = i.ToString(),
+                    Content = string.Empty,
+                    Overview = string.Empty
                 });
             }
             return articles;

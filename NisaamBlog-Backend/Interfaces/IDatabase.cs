@@ -1,12 +1,15 @@
-﻿namespace NisaamBlog_Backend.Interfaces
+﻿using NisaamBlog_Backend.Models;
+
+namespace NisaamBlog_Backend.Interfaces
 {
-    public interface IDatabase<Article>
+    public interface IDatabase
     {
-        public IQueryable<Article> GetArticles();
-        public Article? GetArticle(int articleId);
-        public void CreateArticle(Article article);
-        public void DeleteArticle(int articleId);
-        public void UpdateArticle(int articleId, Article article);
-        public void ClearAllArticles();
+        IEnumerable<Article> GetArticles();
+        Article? GetArticle(string articleId);
+        bool ArticleExist(string articleId);
+        void CreateArticle(Article article);
+        void DeleteArticle(string articleId);
+        void UpdateArticle(string articleId, Article article);
+        void ClearAllArticles();
     }
 }

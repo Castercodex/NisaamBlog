@@ -3,9 +3,25 @@ using NisaamBlog_Backend.Models;
 
 namespace NisaamBlog_Backend.Services
 {
-    public class InMemoryDatabase : IDatabase<Article>
+    public class InMemoryDatabase : IDatabase
     {
+        private DummyDataHandler dummydata { get; set; } = new DummyDataHandler();
         public List<Article> Articles { get; set; } = new List<Article>();
+
+        public InMemoryDatabase()
+        {
+            Articles = dummydata.GenerateArticles().ToList();
+        }
+
+        public bool ArticleExist(string articleId)
+        {
+            Article? article = Articles.Find(x => x.Id == articleId);
+            if(article == null)
+            {
+                return false;
+            }
+            return true;
+        }
 
         public void ClearAllArticles() => Articles.Clear();
 
@@ -19,7 +35,7 @@ namespace NisaamBlog_Backend.Services
             }
         }
 
-        public void DeleteArticle(int articleId)
+        public void DeleteArticle(string articleId)
         {
             Article? articleToDelete = Articles.Find(x => x.Id == articleId);
             if(articleToDelete != null)
@@ -28,11 +44,11 @@ namespace NisaamBlog_Backend.Services
             }
         }
 
-        public Article? GetArticle(int articleId) => Articles.Find(x => x.Id == articleId);
+        public Article? GetArticle(string articleId) => Articles.Find(x => x.Id == articleId);
 
-        public IQueryable<Article> GetArticles() => Articles.AsQueryable();
+        public IEnumerable<Article> GetArticles() => Articles;
 
-        public void UpdateArticle(int articleId, Article article)
+        public void UpdateArticle(string articleId, Article article)
         {
             Article? articleToEdit = Articles.Find(x => x.Id == articleId);
             if(articleToEdit != null)
@@ -48,5 +64,6 @@ namespace NisaamBlog_Backend.Services
                 articleToEdit.Overview = article.Overview;
             }
         }
+
     }
 }
