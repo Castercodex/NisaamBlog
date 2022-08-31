@@ -1,13 +1,27 @@
+import { Link } from "react-router-dom";
 import TimeAgo from "timeago-react";
 
-const Posts = ({ posts }) => {
+const Posts = ({ posts, categories }) => {
   return (
     <>
+      <div className="header">
+        <div className="title">
+          <h1>The Nisam Blog</h1>
+        </div>
+        <div className="categories">
+          {categories.map((category) => (
+            <button key={category.id}>
+              <a href={`/categories/${category.id}`}>{category.name}</a>
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="articles-container">
         <div className="article-section">
           <div className="article-content">
             {posts.slice(0, 3).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -18,7 +32,7 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -28,7 +42,7 @@ const Posts = ({ posts }) => {
           </div>
           <div className="article-content">
             {posts.slice(3, 6).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -39,7 +53,7 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           <div className="article-head">
@@ -47,7 +61,7 @@ const Posts = ({ posts }) => {
           </div>
           <div className="article-content">
             {posts.slice(6, 9).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -58,7 +72,7 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           <div className="article-head">
@@ -66,7 +80,7 @@ const Posts = ({ posts }) => {
           </div>
           <div className="article-content">
             {posts.slice(9, 12).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -77,7 +91,7 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -87,7 +101,7 @@ const Posts = ({ posts }) => {
           </div>
           <div className="article-content">
             {posts.slice(12, 15).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -98,12 +112,12 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           <div className="article-content">
             {posts.slice(15, 18).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -114,7 +128,7 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -124,7 +138,7 @@ const Posts = ({ posts }) => {
           </div>
           <div className="article-content">
             {posts.slice(18, 21).map((post) => (
-              <div className="article" key={post.id}>
+              <Link to={`/posts/${post.id}`} className="article" key={post.id}>
                 <div className="image-container">
                   <img src={post.image} alt="" />
                 </div>
@@ -135,7 +149,7 @@ const Posts = ({ posts }) => {
                     <TimeAgo datetime={post.published} />
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

@@ -1,6 +1,7 @@
 {
-  "article": [
+  "articles": [
     {
+      "id": 1,
       "title": "The Rise and Fall of a Bitcoin Mining Sensation",
       "overview": "Compass Mining grew quickly during crypto’s halcyon days. Now, its customers and their thousands of mining machines are stuck.",
       "image": "https://media.wired.com/photos/62e9c5e1d7368105da057de3/191:100/w_1280,c_limit/BitRiver-Mining-Center-Rise-And-Fall-Of-Bitcoin-Mining-Business-1184520941.jpg",
@@ -12,6 +13,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 2,
       "title": "Bitcoin Fog Case Could Put Cryptocurrency Tracing on Trial",
       "overview": "Roman Sterlingov, accused of laundering $336 million, is proclaiming his innocence—and challenging a key investigative tool.",
       "image": "https://media.wired.com/photos/62e95bada1dc74857a858363/191:100/w_1280,c_limit/Bitcoin-Fog-Security-GettyImages-1241143235.jpg",
@@ -23,6 +25,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 3,
       "title": "Texas heatwave and energy crunch curtails Bitcoin mining",
       "overview": "Bitcoin miners in Texas powered down to respond to an energy crunch triggered by a punishing heatwave. Energy demand from cryptomining is growing in the state.",
       "image": "https://cdn.vox-cdn.com/thumbor/sP9sPjh-2PfK76HRsOfHNYNQWAo=/0x285:4048x2404/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23761862/1235927096.jpg",
@@ -34,6 +37,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 4,
       "title": "Bitcoin Dumpster Guy Has a Wild Plan to Rescue Millions in Bitcoin From a Landfill",
       "overview": "You gotta hand it to some people for being impetuous even in the face of extraordinary odds. Imagine looking for a single hard drive amidst a literal heap of trash. Well, that’s been one UK man’s goal for nearly a decade after he accidentally lost the chance …",
       "image": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/6574aac0667df42205f65f11603c4df1.jpg",
@@ -45,6 +49,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 5,
       "title": "Putin signs law prohibiting crypto payments in Russia",
       "overview": "People in Russia will soon no longer be allowed to use digital assets as a form of payment. Russian president Vladimir Putin has signed a bill into law prohibiting the use of digital assets, such as cryptocurrency and NFTs, to pay for goods and services. In a…",
       "image": "https://s.yimg.com/os/creatr-uploaded-images/2021-10/da24dc60-287b-11ec-bdfb-1b79f92db31c",
@@ -56,6 +61,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 6,
       "title": "Tesla Sells 75% of its Bitcoin Holdings, Elon Musk Says No Dogecoin Sold by Company - News18",
       "overview": "<ol><li>Tesla Sells 75% of its Bitcoin Holdings, Elon Musk Says No Dogecoin Sold by Company\u00A0\u00A0News18\r\n</li><li>Bitcoin Recovers: Tesla says it sold 75% of Bitcoin Holdings | Business News | World News\u00A0\u00A0WION\r\n</li><li>Tesla sells majority of its Bitcoin holding…",
       "image": "https://images.news18.com/ibnlive/uploads/2022/06/tesla-ceo-elon-musk-ians-165588526116x9.jpg",
@@ -67,6 +73,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 7,
       "title": "Crypto weekly: Bitcoin breaks freefall - Reuters",
       "overview": "From Bitcoin highs to blockchain bridge lows, to why some of the worlds biggest technology companies are freezing jobs, we round up the week’s big stories in the world of virtual money. Kristy Kilburn reports.",
       "image": "https://static.reuters.com/resources/r/?d=20220802&i=OV602802082022RP1&r=OV602802082022RP1&t=2",
@@ -78,6 +85,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 8,
       "title": "Bitcoin rises 6.9% to $22717 - Reuters",
       "overview": "Bitcoin rose 6.85% to $22,717.05 at 22:05 GMT on Wednesday, adding $1,457.27 to its previous close.",
       "image": "https://www.reuters.com/resizer/eeQb8FK8oNm7KlzdFaYT9lvuJ5s=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/LP3EEKNH25PZXG4NK2TOEKO2VY.jpg",
@@ -89,6 +97,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 9,
       "title": "Tesla cashes out $936 million in Bitcoin, after a year of crypto turbulence",
       "overview": "Tesla aggressively embraced Bitcoin in 2021, investing $1.5 billion in the currency. But it now says its profitability was affected by \"Bitcoin impairment.\"",
       "image": "https://media.npr.org/assets/img/2022/07/21/gettyimages-1301068355_wide-6e1fb52dc7dad5da5b4ac664ac6f13b9e3c60200.jpg?s=1400",
@@ -100,6 +109,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 10,
       "title": "Bitcoin rises 4% to retake $24,000 as investors shift to risk-on ahead of this week's inflation report",
       "overview": "Bitcoin has trimmed this year's loss to roughly 50%. A decline in US Treasury yields has aided bitcoin as the cryptocurrency offers no yield.",
       "image": "https://i.insider.com/62b042ec4245600018dda5b4?width=1200&format=jpeg",
@@ -111,6 +121,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 11,
       "title": "Cryptoverse: Bitcoin beats the heat in a jumpin' July - Reuters",
       "overview": "It's been a good month for bitcoin - and we haven't said that for a while.",
       "image": "https://www.reuters.com/resizer/SUiQzSC61VNz4Ok30YOCbvAFg88=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/HZTIOIS3NZNIDHH7HUT62Y42IA.jpg",
@@ -122,6 +133,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 12,
       "title": "Bitcoin rises 3.4% to $24584; up 39.7% from year low in June - Reuters",
       "overview": "Bitcoin rose 3.36% to $24,584.24 at 1707 GMT on Saturday, adding $798.93 to its previous close.",
       "image": "https://www.reuters.com/resizer/olDHRm0jmk0gc_1U1JwzC8ItOzY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/KGBQSYSMQRO47BZLCENBDEJYZA.jpg",
@@ -133,6 +145,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 13,
       "title": "Tesla's Profits Decline for the First Time in Over a Year",
       "overview": "Tesla released its 2022 Q2 earnings Wednesday and the results are mixed: Elon Musk’s electric vehicle maker reported $2.3 billion in second-quarter profit, down from a record $3.3 billion in the first quarter of 2022. That’s the company’s first sequential dec…",
       "image": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/c5fc515d4388dd37e3c3442f5b2f13f3.jpg",
@@ -144,6 +157,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 14,
       "title": "Cryptoverse: Shrimps and whales keep bitcoin afloat - Reuters",
       "overview": "The shrimps of the crypto world have joined the whales in a glorious last stand to banish the bleak bitcoin winter.",
       "image": "https://www.reuters.com/resizer/WpRncH7uEjFg3FNSDU_4lEdO2V8=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/B5SVXB23RNLKLDCQVQKNN66WEA.jpg",
@@ -155,6 +169,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 15,
       "title": "Cryptoverse-Holding your breath for a bitcoin bounce - Reuters",
       "overview": "If you're waiting for a bitcoin recovery, you may have to sweat it out for months. That's the conclusion of some technical specialists seeking method from the madness.",
       "image": "https://www.reuters.com/resizer/TP89RCVUE8u_CZJQPAFBTdtyTYg=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7AUPLFQJA5PQ7GNVOE2QVVIFZ4.jpg",
@@ -166,6 +181,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 16,
       "title": "Bitcoin briefly falls after Tesla says it sold 75% of its holdings - Reuters",
       "overview": "Bitcoin stumbled late on Wednesday after Tesla Inc <a href=\"https://www.reuters.com/companies/TSLA.O\" target=\"_blank\">(TSLA.O)</a> said it converted about 75% of its purchases of the virtual token into fiat currency.",
       "image": "https://www.reuters.com/resizer/zFzr92lQ-tAivImOMcKmKkOyeQo=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/OYI5A7HGWNMSVJ4OPQTETGT5ZY.jpg",
@@ -177,6 +193,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 17,
       "title": "Tesla has cashed-out most of its bad bitcoin bet",
       "overview": "Tesla is all but abandoning its massive bitcoin investment as cryptocurrencies continue to take a dive.",
       "image": "https://i.insider.com/62d863dc0c98f500195ebfa3?width=1200&format=jpeg",
@@ -188,6 +205,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 18,
       "title": "Democratic lawmakers want federal regulators to track crypto mining energy use and emissions",
       "overview": "Congressional Democrats are calling on the Environmental Protection Agency and Department of Energy to address the recent proliferation of cryptocurrency mining within the US. In a letter\r\n sent Friday (via The Guardian\r\n), Senator Elizabeth Warren and five o…",
       "image": "https://s.yimg.com/os/creatr-images/2018-10/bb685100-d07f-11e8-bce9-0ff7742a351d",
@@ -199,6 +217,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 19,
       "title": "Honduras launches 'Bitcoin Valley' in the tourist town of Santa Lucia - Reuters.com",
       "overview": "People can pay for a slushie with crypto in the streets of \"Bitcoin Valley,\" a project in the Honduran tourist enclave of Santa Lucia through which the country has entered the digital currency trend.",
       "image": "https://www.reuters.com/resizer/jPZytgVrBXWFzrPY9IVzSoBkS6w=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4ZHVPFZ4KJJITKXCQMIMCUFRDM.jpg",
@@ -210,6 +229,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 20,
       "title": "I’m no longer making predictions about cryptocurrency. Here’s why",
       "overview": "If you’d bought or sold bitcoin every time I wrote about it over the last decade, how much would you have made? Let’s do the maths<ul><li>Don’t get TechScape delivered to your inbox? Sign up here</li></ul>I’ve been writing about cryptocurrency for my entire c…",
       "image": "https://i.guim.co.uk/img/media/47c0e67fc97c6e8f15012744ac879ce0918cad9e/46_319_3487_2092/master/3487.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=59218b55d3e48d92b1ab13f378cbf129",
@@ -221,6 +241,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 21,
       "title": "The Relationship between Bitcoin and Inflation",
       "overview": "Speculation is that some investors have turned to bitcoin in order to protect their holdings from the impacts of hyperinflation. But what exactly does that mean? People are drawn to everything they can run to in order to protect themselves from inflation, whi…",
       "image": "https://images.readwrite.com/wp-content/uploads/2022/07/Bitcoin-and-Inflation.jpg",
@@ -232,6 +253,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 22,
       "title": "How to buy bitcoin using a credit card — and the drawbacks you'll face",
       "overview": "Using a credit card to buy Bitcoin isn't recommended because of fees and the volatility of the asset.",
       "image": "https://i.insider.com/611d5ce020404b0018d9bddc?width=1200&format=jpeg",
@@ -243,6 +265,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 23,
       "title": "El Salvador aims to avoid default with $1.6 billion bond buyback as the nation caps off its first year with bitcoin as official currency",
       "overview": "Since the Central America nation adopted bitcoin as legal tender last September, its bonds have traded at steep discounts.",
       "image": "https://i.insider.com/61e1786a7c6a200018420bb5?width=1200&format=jpeg",
@@ -254,6 +277,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 24,
       "title": "Michael Saylor to step down as MicroStrategy CEO as the software maker records $917 million charge on bitcoin investment",
       "overview": "Saylor will become executive chairman at MicroStrategy and will focus more on the company's bitcoin acquisition strategy.",
       "image": "https://i.insider.com/60ca262123393a00188e3872?width=1200&format=jpeg",
@@ -265,6 +289,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 25,
       "title": "Ether has rallied 50% over the last month, blowing past bitcoin's gains, ahead of 'merge' for Ethereum 2.0",
       "overview": "Bitcoin — the biggest cryptocurrency by market cap — is up about 16.6% from a month ago, trading around $23,296 on Friday.",
       "image": "https://i.insider.com/62dace98d001100019100561?width=1200&format=jpeg",
@@ -276,6 +301,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 26,
       "title": "Someone Lost Millions Trying to Claim $2K Crypto Airdrop - CNET",
       "overview": "A scammer swindled $8 million in bitcoin and ether by targeting users of Uniswap, a popular crypto exchange. That $8 million came from just two victims.",
       "image": "https://www.cnet.com/a/img/resize/fa27749a8167d44ade0e73daa96d9982948ba1e3/2022/07/12/1c750b74-599b-42a5-9929-4b92117d2825/gettyimages-1236413131.jpg?auto=webp&fit=crop&height=630&width=1200",
@@ -287,6 +313,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 27,
       "title": "Netflix finally told investors what they want to hear. Now comes the hard part",
       "overview": "It wasn't long ago that Wall Street would have bristled at such grim news out of Netflix: Between April and June, the company lost 970,000 subscribers.",
       "image": "https://cdn.cnn.com/cnnnext/dam/assets/220720073624-01-netflix-on-tablet-file-super-tease.jpg",
@@ -298,6 +325,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 28,
       "title": "The US Emergency Alert System Has Dangerous Flaws",
       "overview": "Plus: A crypto-heist extravaganza, a peek at an NSO spyware dashboard, and more.",
       "image": "https://media.wired.com/photos/62edb7e154d910713ee4f20c/191:100/w_1280,c_limit/US-Emergency-Alert-System-Security-GettyImages-1166460347.jpg",
@@ -309,6 +337,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 29,
       "title": "DOJ demands more insight into Celsius' severance payments, bitcoin sales - Reuters.com",
       "overview": "The U.S. Department of Justice has demanded more court oversight of Celsius Networks' plans to make employee severance payments and to sell bitcoins during the cryptocurrency lender's bankruptcy.",
       "image": "https://www.reuters.com/resizer/ALN_nDjg-snAvii2TknPvulz5FU=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/5IQLPL77JBKSXIUM6RJR5PHKRE.jpg",
@@ -320,6 +349,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 30,
       "title": "MicroStrategy Reports $1 Billion Loss, CEO Steps Down To Focus On Bitcoin",
       "overview": "MicroStrategy co-founder Michael Saylor gave up his chief executive officer title and said he'll focus more on Bitcoin after the enterprise-software maker reported a loss of more than $1 billion related to the second-quarter plunge in the price of the cryptoc…",
       "image": "https://a.fsdn.com/sd/topics/business_64.png",
@@ -331,6 +361,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 31,
       "title": "embargo Brazil crypto exchange Mercado Bitcoin to expand into Mexico this year, says CEO - Reuters.com",
       "overview": "SoftBank-backed Brazilian crypto exchange Mercado Bitcoin is set to enter the Mexican market by the end of the year, as part of a plan to expand elsewhere in Latin America, its chief executive told Reuters.",
       "image": "https://www.reuters.com/resizer/BzhS_X9Nu3m2XIiyOv18TUJ-UGs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MOKWOWGGQZIB5AFQ6OST3EGAZY.jpg",
@@ -342,6 +373,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 32,
       "title": "Texas bitcoin miners back online after power surge caused curtailments - Reuters",
       "overview": "Large-scale bitcoin mining operations in Texas are back online after sweltering temperatures that caused electricity use to spike led to power curtailments earlier in the month, an industry group said on Tuesday.",
       "image": "https://www.reuters.com/resizer/YZaO2XwcWJgJQByh00F69Puj_QQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/YBGBAX5GA5NTHDPPFOT6R27WAI.jpg",
@@ -353,6 +385,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 33,
       "title": "The crypto winter has come for Jack Dorsey's company, Block",
       "overview": "The ex-Twitter CEO's digital payments firm reported a fall in revenue due to bitcoin's slumped price and \"broader uncertainty\" in the crypto world.",
       "image": "https://i.insider.com/600f0ea0cf23090019e97248?width=1200&format=jpeg",
@@ -364,6 +397,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 34,
       "title": "Crypto platform Zipmex to start releasing Bitcoin, Ether for customers - Reuters",
       "overview": "Crypto exchange Zipmex will release Ethereum and Bitcoin tokens from this week, a spokesperson said on Monday, allowing 60% of its customers to retrieve their digital assets after a suspension of withdrawals from its Z Wallet product.",
       "image": "https://www.reuters.com/resizer/Fd5a-BznMketgq1x6iGznPIbLTM=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/DAQG47AXNNNY5CJY7EM4QCRX6Q.jpg",
@@ -375,6 +409,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 35,
       "title": "Crypto Weekly: Tesla sells its stash - Reuters.com",
       "overview": "From Elon Musk changing a big bitcoin stash into regular cash, to a crypto adventure in the Central African Republic, we round up the big stories in virtual money. Kristy Kilburn reports.",
       "image": "https://static.reuters.com/resources/r/?d=20220726&i=OV455026072022RP1&r=OV455026072022RP1&t=2",
@@ -386,6 +421,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 36,
       "title": "Ready to invest in Bitcoin? Here are 4 steps to get started",
       "overview": "Here's everything you need to know about how to invest in bitcoin, from choosing an exchange and crypto wallet, to picking the right trading strategy.",
       "image": "https://i.insider.com/61449cf82257350018f75377?width=1200&format=jpeg",
@@ -397,6 +433,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 37,
       "title": "U.S. SEC delays decision on ARK 21Shares spot bitcoin ETF - Reuters",
       "overview": "The U.S. Securities and Exchange Commission on Tuesday delayed a decision on whether to allow a spot bitcoin exchange-traded fund by stock-picker Cathie Wood's Arc Invest and crypto investment product firm 21Shares US to list and trade on Cboe Global Markets …",
       "image": "https://www.reuters.com/resizer/UGn6DYPkJopsvuEpGZCiOGL0FQg=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/46XL5FU4GZJAZELRX4FVPAWDSY.jpg",
@@ -408,6 +445,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 38,
       "title": "Block slides as drop in bitcoin revenue dents 2nd-quarter earnings for the Cash App parent",
       "overview": "Bitcoin's price dropped by nearly 60% during the second quarter but has recovered slightly to trade above $23,000.",
       "image": "https://i.insider.com/62491315e22adb0018d1c24c?width=1200&format=jpeg",
@@ -419,6 +457,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 39,
       "title": "Bitso's $2 billion rise shows the power of crypto innovation in Latin America",
       "overview": "Bitso \"paved the way for much of the crypto ecosystem in Latin America,\" one expert said, and helped drive El Salvador's bitcoin experiment.",
       "image": "https://i.insider.com/62d8081c38d0b5001995aefb?width=1200&format=jpeg",
@@ -430,6 +469,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 40,
       "title": "Coinbase will help BlackRock's top clients gain exposure to the cryptocurrency market in a new partnership",
       "overview": "The partnership will initially be limited to bitcoin exposure, according to a Coinbase blog post. Shares of the exchange jumped as much as 21% early Thursday.",
       "image": "https://i.insider.com/62ebc8ab05c1fd001846fdaa?width=1200&format=jpeg",
@@ -441,6 +481,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 41,
       "title": "Elon Musk dumped 75% of Tesla's bitcoin last quarter, and wants out of his deal to buy Twitter. Plunging asset prices and recession fears may explain why",
       "overview": "Musk may be having second thoughts as Tesla, Twitter, and bitcoin have plunged in value this year, and the US economy is hurtling towards a recession.",
       "image": "https://i.insider.com/62d922ff0c98f500195eca2d?width=1200&format=jpeg",
@@ -452,6 +493,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 42,
       "title": "A rally in bitcoin and ether push crypto market cap back above $1 trillion as digital assets struggle against bear market",
       "overview": "Investor sentiment often follows price, so if the rally in bitcoin and ether can hold, it should lure more investors back into the crypto space.",
       "image": "https://i.insider.com/62d58c07aac2aa0018cb9d57?width=1200&format=jpeg",
@@ -463,6 +505,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 43,
       "title": "How to invest in blockchain, the high-risk but high-potential technology behind bitcoin and other digital transactions",
       "overview": "Investing in blockchain technology has become hot due to its role in bitcoin and other promising developments for its use. Here are ways to invest.",
       "image": "https://i.insider.com/5ff4f229d184b30018aad332?width=1200&format=jpeg",
@@ -474,6 +517,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 44,
       "title": "How Walmart is trying to solve its excessive-inventory issues",
       "overview": "Today we're kicking things off with a look at Walmart's excessive-inventory issues, then a look at return-to-office orders, a bitcoin mission, and more.",
       "image": "https://i.insider.com/62e42a454b455800188b68ff?width=1200&format=jpeg",
@@ -485,6 +529,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 45,
       "title": "Block slows investment, hiring after mixed Q2 but plays up growth initiatives",
       "overview": "Block's gross payment volume surged 23% YoY in Q2—but total net revenues dropped 6% YoY as a result of Bitcoin losses.",
       "image": "https://contentstorage-nax1.emarketer.com/4e404a766a2b47b726ddb320cf0f2b59/default-image-share.png?im=FitAndFill,width=1200,height=630",
@@ -496,6 +541,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 46,
       "title": "Another court case fails to unlock the mystery of bitcoin’s Satoshi Nakamoto",
       "overview": "As Craig Wright’s legal tussles pile up, the world is no closer to knowing who the currency’s inventor really isWho is Satoshi Nakamoto? The mysterious inventor of bitcoin is a renowned figure in the world of cryptocurrency but his true identity is unknown.Ho…",
       "image": "https://i.guim.co.uk/img/media/5e754634d68931ac0ba3ae191be4dba3a14c20b9/0_371_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3e2bcabf223f0e7bb598dd3d9d37b22a",
@@ -507,6 +553,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 47,
       "title": "Dorsey-led Block posts loss for second quarter on bitcoin slump - Reuters",
       "overview": "Jack Dorsey-led Block Inc <a href=\"https://www.reuters.com/companies/SQ.N\" target=\"_blank\">(SQ.N)</a> on Thursday reported a loss for the second quarter as a bruising selloff in cryptocurrency markets hurt the fintech company's earnings from bitcoin trades on…",
       "image": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=106",
@@ -518,6 +565,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 48,
       "title": "Block shares slip after crypto winter dampens quarterly results - Reuters",
       "overview": "Shares of Jack Dorsey-led Block Inc <a href=\"https://www.reuters.com/companies/SQ.N\" target=\"_blank\">(SQ.N)</a>, a digital payments firm that has bet big on bitcoin, declined nearly 7% in premarket trading on Friday after the company reported a loss in quarte…",
       "image": "https://www.reuters.com/resizer/SMSA0eNWtPIR-Mx2xNcRc0QEqpI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PA7ZOH5NSRPU7IQAMPPAGLSBFA.jpg",
@@ -529,6 +577,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 49,
       "title": "Elon Musk Dumped 75% of Tesla's Bitcoin Last Quarter, and Wants Out of His Deal to Buy Twitter. Plunging Asset Prices and Recession Fears May Explain Why",
       "overview": "The Tesla CEO is also trying to renege on his $44 billion agreement to buy Twitter.",
       "image": "https://assets.entrepreneur.com/content/3x2/2000/1658413095-elon.jpg",
@@ -540,6 +589,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 50,
       "title": "Bitcoin bull Mike Novogratz says crypto's forced deleveraging is over and bitcoin is still an asset to hold amid economic uncertainty",
       "overview": "\"The worst is over. There is no more forced deleveraging that's going to happen,\" the famed crypto investor told CNBC.",
       "image": "https://i.insider.com/62f111c28677d80018ee50fd?width=1200&format=jpeg",
@@ -551,6 +601,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 51,
       "title": "El Salvador still has plans for a bitcoin bond even as the country sees a 50% loss on its crypto investment",
       "overview": "El Salvador has snapped up 2,381 bitcoins since making it legal tender last year, but it has taken a significant loss, Bloomberg data shows.",
       "image": "https://i.insider.com/62e2ac6ee1179200195ec0b1?width=1200&format=jpeg",
@@ -562,6 +613,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 52,
       "title": "Senate bill would hand bitcoin, ether oversight to commodities regulator - Reuters",
       "overview": "A new bill introduced in the U.S. Senate would make the Commodity Futures Trading Commission (CFTC) the direct regulator of the biggest cryptocurrencies.",
       "image": "https://www.reuters.com/resizer/D6UAwg9xkBVA9UviKEjSKPGTI3w=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QQABWUBD6JJ3JJLRDJTC3IQMFI.jpg",
@@ -573,6 +625,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 53,
       "title": "Tesla still has $222 million in digital assets on its balance sheet after dumping most of its bitcoin",
       "overview": "In an SEC filing Monday, Tesla also disclosed a $170 million impairment charge on its crypto investments for the six-month period that ended June 30.",
       "image": "https://i.insider.com/62ab2d108eacc300192df60b?width=1200&format=jpeg",
@@ -584,6 +637,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 54,
       "title": "Financial services firm Block stock has fallen (-59%) in 2022",
       "overview": "Financial services firm Block (NYSE: SQ) stock has fallen (-59%) into the toilet for 2022",
       "image": "https://assets.entrepreneur.com/providers/marketbeat/hero-image-marketbeat-431585.jpeg",
@@ -595,6 +649,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 55,
       "title": "What Is the Free State Project?",
       "overview": "Our guest writer Dan Barry explains the history behind a New Hampshire movement whose temporary victory galvanized a small town.",
       "image": "https://static01.nyt.com/images/2022/07/15/multimedia/15onpolitics-meeting/15onpolitics-meeting-facebookJumbo.jpg",
@@ -606,6 +661,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 56,
       "title": "Bitcoin Dumpster Guy Has a Wild Plan To Rescue Millions In Crypto From a Landfill",
       "overview": "An anonymous reader quotes a report from Gizmodo: Former IT worker James Howells -- who once stood on the very forefront of the crypto boom and could have been a multimillionaire -- is desperate to scour a UK landfill located in Newport, Wales where he might …",
       "image": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
@@ -617,6 +673,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 57,
       "title": "3 Risky Crypto Stocks Investors Should Avoid",
       "overview": "Bitcoin, the largest cryptocurrency, has been trading in a tight range due to the volatile economic backdrop. Moreover, with a disappointing global growth forecast, the crypto market might be bracing...",
       "image": "https://assets.entrepreneur.com/providers/stocknews/hero-image-stocknews-432840.jpeg",
@@ -628,6 +685,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 58,
       "title": "Man who threw away £150m in bitcoin hopes AI and robot dogs will get it back",
       "overview": "Computer engineer who accidentally discarded hard drive consults Newport council over schemeA computer engineer who accidentally threw away a hard drive containing approximately £150m worth of bitcoin plans to use artificial intelligence to search through tho…",
       "image": "https://i.guim.co.uk/img/media/fcb98f8e17e8a355edc88e718c0ee6cdaa4fdba4/805_867_4955_2973/master/4955.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=69d36e8eeb1c06f1a4ffbb4792de9088",
@@ -639,6 +697,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 59,
       "title": "Texas Bitcoin Miners Power Down as Grid Struggles With Summer Heat - CNET",
       "overview": "Crypto may be dropping in price, but the temperature is going up.",
       "image": "https://www.cnet.com/a/img/resize/b2a7bf08c1404e94e273964bb180d899b2125b16/2022/07/12/1e90b3d1-0890-44e7-b56f-cd4a766c0b08/gettyimages-1237353227.jpg?auto=webp&fit=crop&height=630&width=1200",
@@ -650,6 +709,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 60,
       "title": "Zebedee raised $35M from investors including Square Enix for blockchain game payments",
       "overview": "Zebedee has raised $35 million in a new round of funding to further develop its Bitcoin-based payment systems for games.",
       "image": "https://venturebeat.com/wp-content/uploads/2022/07/ZEBEDEE-games.jpg?w=1200&strip=all",
@@ -661,6 +721,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 61,
       "title": "Fiat money: Currencies that derive their value largely through trust in the governments that issue them",
       "overview": "Fiat money is currency backed by trust in the government that issued it and not tied to a physical commodity such as gold or silver.",
       "image": "https://i.insider.com/61969b82a2e68800198aead5?width=1200&format=jpeg",
@@ -672,6 +733,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 62,
       "title": "Ethereum Merge: How Crypto's Carbon Footprint Is About to Shrink - CNET",
       "overview": "Ethereum, the second biggest blockchain in the world, is transitioning to proof of stake. That sentence may not make sense to you, but it's a huge deal.",
       "image": "https://www.cnet.com/a/img/resize/e20cf953a1e584b3e9442bad7df0fd8dcd60d147/2022/07/14/70fe602c-0eca-4060-9e47-2375450b2ad9/gettyimages-1241390930.jpg?auto=webp&fit=crop&height=630&width=1200",
@@ -683,6 +745,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 63,
       "title": "What is Ethereum? What to know before investing",
       "overview": "Ethereum is a decentralized platform that uses blockchain technology. It's powered by its native cryptocurrency: ether.",
       "image": "https://i.insider.com/611bcf43c040ad0018cea83a?width=1200&format=jpeg",
@@ -694,6 +757,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 64,
       "title": "Factbox: The crypto crash hit these companies the hardest - Reuters",
       "overview": "Cryptocurrencies have been hard hit by fears interest rate hikes will end the era of cheap money, with the world’s largest digital asset, bitcoin, down more than 56% from this year’s high. Several crypto companies have filed for bankruptcy or have been forced…",
       "image": "https://www.reuters.com/resizer/yKlgZ4aCto6oSD9S-OC_2PvU_7c=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/WMD66GUZJ5N3XNYTHHJNLADPGM.jpg",
@@ -705,6 +769,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 65,
       "title": "Brazil's XP Inc to open crypto platform to clients in August - Reuters.com",
       "overview": "Brazilian brokerage XP Inc <a href=\"https://www.reuters.com/companies/XP.O\" target=\"_blank\">(XP.O)</a> expects to open its digital assets trading platform to clients by mid-August, initially offering bitcoin and ether but with plans to expand it by the end of…",
       "image": "https://www.reuters.com/resizer/D6UAwg9xkBVA9UviKEjSKPGTI3w=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QQABWUBD6JJ3JJLRDJTC3IQMFI.jpg",
@@ -716,6 +781,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 66,
       "title": "Buzzword Bingo Bitcoin Burial Burrowing Blueprint Balked at By Bureaucracy",
       "overview": "Many of you will at some time have heard the unfortunate tale of [James Howells], a Welsh IT worker who threw away a hard drive containing 8,000 Bitcoin back in 2013. Over the years he’s hatc…",
       "image": "https://hackaday.com/wp-content/uploads/2022/08/btc-landfill-featured.jpg",
@@ -727,6 +793,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 67,
       "title": "Ethereum Merge Explained: Why It Matters For Everyone - CNET",
       "overview": "Ethereum will soon adopt a proof-of-stake system, which some say will reduce its carbon emissions by over 99%.",
       "image": "https://www.cnet.com/a/img/resize/e20cf953a1e584b3e9442bad7df0fd8dcd60d147/2022/07/14/70fe602c-0eca-4060-9e47-2375450b2ad9/gettyimages-1241390930.jpg?auto=webp&fit=crop&height=630&width=1200",
@@ -738,6 +805,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 68,
       "title": "Anthony Scaramucci's SkyBridge has halted withdrawals from one of its funds as the stock market deteriorates",
       "overview": "SkyBridge Capital froze withdrawals from its Legion Strategy fund, which has 20% of its assets in private companies, which are harder to sell.",
       "image": "https://i.insider.com/62d6837fbc4c770018b759e1?width=1200&format=jpeg",
@@ -749,6 +817,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 69,
       "title": "The quest to find $181 million in bitcoin buried in a dump",
       "overview": "James Howells of Newport, Wales, shares his $11 million business plan to recover a hard drive with 8,000 bitcoins on it from a dump.",
       "image": "https://i.insider.com/62c5f01d99259b00181e3199?width=1200&format=jpeg",
@@ -760,6 +829,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 70,
       "title": "Bitcoin-bull Mike Novogratz's Galaxy Digital loses $555 million in 2nd quarter amid crypto winter",
       "overview": "The crypto firm's second-quarter losses were more than triple those from a year earlier.",
       "image": "https://i.insider.com/62f111c28677d80018ee50fd?width=1200&format=jpeg",
@@ -771,6 +841,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 71,
       "title": "Qué es Lightning Network y por qué es crucial para que Bitcoin sea el ‘dinero del futuro’",
       "overview": "Entre tantos conceptos ligados al Bitcoin, uno de los que más fuerza ha ganado en los últimos años es el de Lightning Network (LN). Se trata de una red de canales de pagos que permite transaccionar de un modo más veloz y con comisiones ínfimas o nulas, y los …",
       "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/02/kanchanara-4kjjezdyo3m-unsplash-scaled.jpeg?fit=2560%2C1707&quality=50&strip=all&ssl=1",
@@ -782,6 +853,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 72,
       "title": "Chipotle courts the gullible with a crypto game",
       "overview": "Chipotle is attempting to get crypto degens to buy its burritos with a game called “Buy the Dip.” There’s a catch — because it’s cryptocurrency, and there’s always a catch.",
       "image": "https://cdn.vox-cdn.com/thumbor/tE_M0Gmkwq-OoGtt7WZdoxlAaLI=/0x375:4835x2906/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23893850/1393875852.jpg",
@@ -793,6 +865,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 73,
       "title": "Celsius Owes $4.7 Billion to Users But Doesn't Have Money to Pay Them",
       "overview": "Celsius, the crypto trading platform that halted all withdrawals a month ago and filed for bankruptcy yesterday, has a $1.2 billion sized hole in its balance sheet, according to a bankruptcy filing and new report from the Financial Times. What does that mean …",
       "image": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/96193b411986a19f6986476ac682b714.png",
@@ -804,6 +877,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 74,
       "title": "Billionaire Mike Novogratz says the crypto industry is suffering from a credit crisis - and that he was 'darn wrong' on leverage risks",
       "overview": "Mike Novogratz blamed the turmoil in crypto markets on poor regulatory standards, saying the SEC didn't do much to protect retail investors.",
       "image": "https://i.insider.com/62a8ba86ac534e00193338cf?width=1200&format=jpeg",
@@ -815,6 +889,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 75,
       "title": "A man who lost $176 million worth of bitcoin in a dump wants to use a pair of $75,000 robot dogs in his master plan to get it back",
       "overview": "James Howells threw out 8,000 bitcoins on a hard drive in 2013. Now he has an $11 million business plan to recover it involving two robotic dogs.",
       "image": "https://i.insider.com/62de74b8aa194b0019482b5b?width=1200&format=jpeg",
@@ -826,6 +901,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 76,
       "title": "Once-Hot Strategy of Holding Bitcoin Overnight Loses Luster",
       "overview": "The news flow has been heavy in recent weeks amid trouble at different crypto companies, potentially affecting the long-prevalent strategy.",
       "image": "https://api.time.com/wp-content/uploads/2022/07/bitcoin-holding-strategy-loses-luster.jpg?quality=85&w=1024&h=628&crop=1",
@@ -837,6 +913,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 77,
       "title": "Global regulators back 'same risk, same regulation' for stablecoins - Reuters.com",
       "overview": "Major stablecoins must comply with the same safeguards as traditional forms of payments, global regulators said on Wednesday, tightening controls over a battered crypto sector.",
       "image": "https://www.reuters.com/resizer/R1epWYdMWQTljYC_G1pZkqhkkA4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PEBRFDRHH5MJLJI5CNFD2ER2ZM.jpg",
@@ -848,6 +925,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 78,
       "title": "Black investors say crypto is still key to building wealth even as digital assets see steep sell-off in 2022",
       "overview": "Black investors are twice as likely to say crypto is their best investment option, according to a study. The trend worries some experts amid a steep slump.",
       "image": "https://i.insider.com/62dae8446fb3cf0018e08405?width=1200&format=jpeg",
@@ -859,6 +937,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 79,
       "title": "US stocks rise as Tesla continues to climb while energy prices and bond yields drop",
       "overview": "US stocks ended the day higher as electric car maker Tesla surged 10% after reporting strong second-quarter earnings.",
       "image": "https://i.insider.com/62d9ac08d0011000190fdfb4?width=1200&format=jpeg",
@@ -870,6 +949,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 80,
       "title": "US stocks trade mixed as strong Tesla earnings lift Nasdaq while ECB hikes rates for first time in 11 years",
       "overview": "Russia resumed gas flows via its key Nord Stream 1 pipeline, although at reduced flows, sending natural gas prices down and the euro up.",
       "image": "https://i.insider.com/62d94f6fd0011000190fc323?width=1200&format=jpeg",
@@ -881,6 +961,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 81,
       "title": "‘They couldn’t even scream any more. They were just sobbing’: the amateur investors ruined by the crypto crash",
       "overview": "Fuelled by hype and hysteria, the market in bitcoin and other cryptocurrencies went from an obscure niche to a $3tn industry. Then the house of cards collapsedIn the gloom of an 18th-century drawing room at the private rehab clinic Castle Craig, near Peebles …",
       "image": "https://i.guim.co.uk/img/media/aa704d05ed2374c8fefffb603b9508cb722378f9/41_0_3148_1889/master/3148.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a3de6bc0362b14e8b72945bae16d8d2d",
@@ -892,6 +973,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 82,
       "title": "Bipartisan Bill Seeks To Eliminate Taxes on Crypto Transactions Under $50",
       "overview": "A bill was introduced in the Senate today that would prevent Americans from needing to disclose capital gains or losses on most smaller-scale crypto transactions. From a report: Introduced by senators Patrick Toomey (R-PA) and Kyrsten Sinema (D-AZ), the Crypt…",
       "image": "https://a.fsdn.com/sd/topics/usa_64.png",
@@ -903,6 +985,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 83,
       "title": "Blockchain is a digital database used to store data for crypto transactions and other assets — here's how it works",
       "overview": "Blockchain is a digital database that secures cryptocurrency transactions, but it also has other uses.",
       "image": "https://i.insider.com/6140d3d92534ab00185426de?width=1200&format=jpeg",
@@ -914,6 +997,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 84,
       "title": "Digital assets are becoming the new normal — 4 steps to buy cryptocurrency",
       "overview": "You can purchase cryptocurrencies through crypto exchanges, online brokerages, and payment services like PayPal. See how it works.",
       "image": "https://i.insider.com/611bcf85a4b07b0018adf0b8?width=1200&format=jpeg",
@@ -925,6 +1009,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 85,
       "title": "Ni Tesla se fía ya de bitcoin: la empresa vende el 75% de sus criptos para minimizar pérdidas",
       "overview": "A principios del año pasado la fiebre cripto contagiaba a Tesla. La empresa anunciaba una inversión de 1.500 millones de dólares en bitcoin. Poco después subía la apuesta y permitía que se pudieran comprar sus coches con esa criptomoneda.\n<!-- BREAK 1 -->\nAho…",
       "image": "https://i.blogs.es/ed08e0/captura-de-pantalla-2022-07-21-a-las-8.25.42/840_560.jpeg",
@@ -936,6 +1021,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 86,
       "title": "The Lightning Network: Turning Bitcoin into Money",
       "overview": "The Lightning Network (LN) is a means of netting Bitcoin payments outside the blockchain. We find a significant association between LN adoption and reduced bloc",
       "image": "https://cdn.ssrn.com/ssrn-global-header/11589acb53bc518aa22929bf19add113.svg",
@@ -947,6 +1033,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 87,
       "title": "Dow soars 332 points after early losses as traders digest a 2nd straight negative GDP print",
       "overview": "Stocks rallied following the second consecutive negative GDP reading. Policymakers point to the labor market as evidence of economic strength.",
       "image": "https://i.insider.com/62e2e954536a2300191223e1?width=1200&format=jpeg",
@@ -958,6 +1045,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 88,
       "title": "Crypto markets have 'found a floor' as anticipation builds that Ethereum merge is viable in 2022, JPMorgan says",
       "overview": "The merge is designed to transfer the Ethereum blockchain away from a proof-of-work network and instead to a proof-of-stake system.",
       "image": "https://i.insider.com/628e13817be71f001936f9e7?width=1200&format=jpeg",
@@ -969,6 +1057,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 89,
       "title": "'Rich Dad Poor Dad' author Robert Kiyosaki warns raging US inflation could spark a historic depression - and sounds the alarm on layoffs, home sales, and foreclosures",
       "overview": "The personal-finance guru views surging prices, workforce cuts, and a downturn in the real estate market as red flags.",
       "image": "https://i.insider.com/62da827fd0011000190ff343?width=1200&format=jpeg",
@@ -980,6 +1069,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 90,
       "title": "The total value of the crypto market has surged in recent weeks as bears start to buy back in and bulls 'hold on for dear life'",
       "overview": "Bank of America analysts said investors appear to be coming off the sidelines and back into crypto, but a recession would likely spark another sell-off.",
       "image": "https://i.insider.com/62e7e759c1c56b0018b49b83?width=1200&format=jpeg",
@@ -991,6 +1081,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 91,
       "title": "Tom Brady bought a Bored Ape NFT for $430,000 in April. He's lost tens of thousands on it since then.",
       "overview": "The NFL quarterback is one of many celebs that have thrown support behind NFTs, but he's lost anywhere from $194,564 to $293,966 on his Bored Ape.",
       "image": "https://i.insider.com/62f13a9b8677d80018ee5a54?width=1200&format=jpeg",
@@ -1002,6 +1093,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 92,
       "title": "Cryptoverse: What crisis? Venture capitalists bet big on crypto - Reuters",
       "overview": "Cryptoverse: What crisis? Venture capitalists bet big on crypto\u00A0\u00A0Reuters",
       "image": "https://www.reuters.com/resizer/9BMltZgteA-YqoVeWpYwBtCntHE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/6RYTBVRNWRN7FGDXL737UHXOOM.jpg",
@@ -1013,6 +1105,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 93,
       "title": "Cryptoverse: What crisis? Venture capitalists bet big on crypto - Reuters.com",
       "overview": "Cryptoverse: What crisis? Venture capitalists bet big on crypto\u00A0\u00A0Reuters.com",
       "image": "https://www.reuters.com/resizer/oGqBNBAiU3Jm9GGqQ02cMDdEnZc=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/LZQGHQAS4JJ75MW2MUFNUAL6DE.jpg",
@@ -1024,6 +1117,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 94,
       "title": "New guilty plea in BitMEX crypto exchange laundering case - Reuters",
       "overview": "The first employee of BitMEX pleaded guilty on Monday to violating U.S. bank secrecy laws by failing to establish an anti-money laundering program, following guilty pleas to the same charge by the cryptocurrency exchange's three co-founders.",
       "image": "https://www.reuters.com/resizer/Wizo4hWPiYQhhHkKf1qY4bNcbS0=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2UXLYI7K2NPYLCDOJL5NLIH2QU.jpg",
@@ -1035,6 +1129,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 95,
       "title": "Coinbase posts quarterly loss - Reuters.com",
       "overview": "Coinbase Global Inc <a href=\"https://www.reuters.com/companies/COIN.O\" target=\"_blank\">(COIN.O)</a> reported a loss for the second quarter on Tuesday, hurt by a plunge in trading volumes as this year's rout in risky assets curbed investor appetite for trading…",
       "image": "https://www.reuters.com/resizer/VFqQIm3yNO7V4K7If1sEOnR1sjU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/WITOR3WZZRNS3GRCTWKFF2XDAI.jpg",
@@ -1046,6 +1141,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 96,
       "title": "EU securities watchdog to arm itself with crypto data - Reuters",
       "overview": "The European Union's securities watchdog has begun preparations for increased scrutiny of crypto transactions after the bloc agreed groundbreaking rules to regulate what it called a \"Wild West\" sector, a public tender document showed.",
       "image": "https://www.reuters.com/resizer/yKlgZ4aCto6oSD9S-OC_2PvU_7c=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/WMD66GUZJ5N3XNYTHHJNLADPGM.jpg",
@@ -1057,6 +1153,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 97,
       "title": "Thai c.bank to test retail digital currency late this year - Reuters",
       "overview": "Thailand's central bank said on Friday it expected to test its retail digital currency from late this year to the middle of 2023, as an alternative payment option.",
       "image": "https://www.reuters.com/resizer/-NEiUWXMJ-fm3aORlo9G986-kUQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MCHWHJZPJRMILGJ4B5SOEE3D3I.jpg",
@@ -1068,6 +1165,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 98,
       "title": "My Big Coin virtual currency firm founder convicted of fraud - Reuters.com",
       "overview": "The founder of a defunct cryptocurrency business was convicted on Thursday of charges that he defrauded investors and customers out of millions of dollars through lies and false claims that its virtual currency My Big Coin was backed by $300 million in gold.",
       "image": "https://www.reuters.com/resizer/F2EiOo0h_X-2JRibp-3NPTKXYGM=/728x381/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/G5WNHRU3WNLK3DVGXKUTCIVE44.jpg",
@@ -1079,6 +1177,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 99,
       "title": "Tesla verdoppelt Reingewinn trotz Bitcoin-Verlust",
       "overview": "Tesla hat drei Viertel seiner Bitcoins wieder verkauft – mit Verlust. Dennoch schnellen Betriebs- und Reingewinn nach oben.​",
       "image": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/5/7/9/3/9/2/shutterstock_1634989399-afc3dac6c664175b.jpg",
@@ -1090,6 +1189,7 @@
       "lastUpdated": "0001-01-01T00:00:00"
     },
     {
+      "id": 100,
       "title": "Will the Crypto Market Reach Rock Bottom During Crypto Winter?",
       "overview": "Cryptocurrency is seeing massive downturns that began after it peaked in November 2021.\u00A0 According to Coinmarketcap, the total market cap lost two-thirds of its value, falling from $3 trillion to below $1 trillion on June 13. Bitcoin (BTC) suffered a loss of …",
       "image": "https://images.readwrite.com/wp-content/uploads/2022/06/Crypto-Market-Reach.jpg",

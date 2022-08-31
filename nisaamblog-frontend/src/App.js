@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import Layout from "./components/base/Layout";
 import Home from "./components/blog/Home";
+
 export default class App extends Component {
   static displayName = App.name;
 
@@ -10,11 +12,13 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div className="site-container">
+      <Router>
         <Layout>
-          <Home />
+          <div className="site-container">
+            <Home />
+          </div>
         </Layout>
-      </div>
+      </Router>
     );
   }
 }

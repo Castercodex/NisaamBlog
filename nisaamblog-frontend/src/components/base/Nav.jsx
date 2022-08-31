@@ -1,6 +1,10 @@
-import React from "react";
+import { useState } from "react";
 
 const Nav = () => {
+  const [open, setOpen] = useState(false);
+  const handleHamClick = (e) => {
+    setOpen(!open);
+  };
   return (
     <div className="nav-container">
       <div className="nav-contents">
@@ -9,7 +13,8 @@ const Nav = () => {
             <a className="site-name" href="/">
               Nisam
             </a>
-            <ul className="flex-default">
+
+            <ul className="flex-default nav-links">
               <li>
                 {" "}
                 <button>Marketplace</button>{" "}
@@ -26,11 +31,25 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-
           <div className="nav-item auth-btns flex-default">
             <button className="auth-btn">Login</button>
 
             <button className="auth-btn">Sign up free</button>
+            <div className="ham-container">
+              <button onClick={handleHamClick} className="hamburger">
+                <div className="bar"></div>
+                <div className="bar"></div>
+                <div className="bar"></div>
+              </button>
+              {open && (
+                <button onClick={handleHamClick} className="cancel">
+                  <div className="cancel-symbol">X</div>
+                </button>
+              )}
+            </div>
+          </div>{" "}
+          <div className="res-section">
+            <ul className="res-ham-section"></ul>
           </div>
         </div>
       </div>
