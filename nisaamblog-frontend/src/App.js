@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/base/Layout";
 import Home from "./components/blog/Home";
 import Register from "./components/authentication/Register";
+import Login from "./components/authentication/Login";
 export default class App extends Component {
   static displayName = App.name;
 
@@ -27,6 +28,7 @@ export default class App extends Component {
             }
           />
           <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     );
