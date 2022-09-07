@@ -47,7 +47,7 @@ const Home = () => {
       return response;
     };
     const getPosts = async () => {
-      const response = await fetch("http://localhost:8080/api/articles");
+      const response = await fetch("/api/article");
       const data = await response.json();
       setPosts(data);
       setLoading(false);

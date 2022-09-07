@@ -6,8 +6,9 @@ const Post = ({ posts, categories }) => {
   const [post, setPost] = useState({});
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const getPost = async () => {
-      const post = await fetch(`http://localhost:8080/api/articles/${id.id}`)
+      const post = await fetch(`/api/article/${id.id}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error(`response.status: ${response.status}`);

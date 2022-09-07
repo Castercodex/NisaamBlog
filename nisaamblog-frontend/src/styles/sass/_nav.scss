@@ -60,7 +60,7 @@
         gap: 10px;
         .auth-btn {
           text-align: center;
-          padding: 12px;
+          // padding: 12px;
           height: 64px;
           width: 100px;
           color: #1e2330;
@@ -73,10 +73,25 @@
           border: none;
           &:nth-child(2) {
             background-color: #1e2330;
-            padding: 18px 26px 20px 26px;
+
             width: max-content;
             color: #ffffff;
             border-radius: 10000px;
+          }
+          a {
+            text-decoration: none;
+            color: inherit;
+          }
+          button {
+            padding: 18px 26px 20px 26px;
+            font-size: inherit;
+            font-weight: inherit;
+            color: inherit;
+            width: inherit;
+            height: inherit;
+            border: none;
+            background: transparent;
+            pointer-events: none;
           }
         }
 

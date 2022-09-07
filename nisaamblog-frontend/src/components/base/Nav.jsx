@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -32,9 +33,13 @@ const Nav = () => {
             </ul>
           </div>
           <div className="nav-item auth-btns flex-default">
-            <button className="auth-btn">Login</button>
+            <Link className="auth-btn" to={"/login"}>
+              <button>Login</button>
+            </Link>
 
-            <button className="auth-btn">Sign up free</button>
+            <Link className="auth-btn" to={"/register"}>
+              <button>Sign up free</button>
+            </Link>
             <div className="ham-container">
               <button onClick={handleHamClick} className="hamburger">
                 <div className="bar"></div>
