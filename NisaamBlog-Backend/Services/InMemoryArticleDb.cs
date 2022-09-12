@@ -3,17 +3,17 @@ using NisaamBlog_Backend.Models;
 
 namespace NisaamBlog_Backend.Services
 {
-    public class InMemoryDatabase : IDatabase
+    public class InMemoryArticleDb : IDatabase<Article>
     {
         private DummyDataHandler dummydata { get; set; } = new DummyDataHandler();
         public List<Article> Articles { get; set; } = new List<Article>();
 
-        public InMemoryDatabase()
+        public InMemoryArticleDb()
         {
             Articles = dummydata.GenerateArticles().ToList();
         }
 
-        public bool ArticleExist(string articleId)
+        public bool Exists(string articleId)
         {
             Article? article = Articles.Find(x => x.Id == articleId);
             if(article == null)
@@ -23,32 +23,30 @@ namespace NisaamBlog_Backend.Services
             return true;
         }
 
-        public void ClearAllArticles() => Articles.Clear();
+        public void Clear() => Articles.Clear();
 
-        public void CreateArticle(Article article)
+        public void Create(Article article)
         {
-            //Check if an articles with same ID exists
             if(Articles.Find(x => x.Id == article.Id) == null)
             {
-                //Add article if it does not exist
                 Articles.Add(article);
             }
         }
 
-        public void DeleteArticle(string articleId)
+        public void Delete(string articleId)
         {
-            Article? articleToDelete = Articles.Find(x => x.Id == articleId);
-            if(articleToDelete != null)
+            Article? article = Articles.Find(x => x.Id == articleId);
+            if(article != null)
             {
-                Articles.Remove(articleToDelete);
+                Articles.Remove(article);
             }
         }
 
-        public Article? GetArticle(string articleId) => Articles.Find(x => x.Id == articleId);
+        public Article? Get(string articleId) => Articles.Find(x => x.Id == articleId);
 
-        public IEnumerable<Article> GetArticles() => Articles;
+        public IEnumerable<Article> Get() => Articles;
 
-        public void UpdateArticle(string articleId, Article article)
+        public void Update(string articleId, Article article)
         {
             Article? articleToEdit = Articles.Find(x => x.Id == articleId);
             if(articleToEdit != null)
@@ -59,7 +57,7 @@ namespace NisaamBlog_Backend.Services
                 articleToEdit.Published = article.Published;
                 articleToEdit.Category = article.Category;
                 articleToEdit.Content = article.Content;
-                articleToEdit.Country = article.Country;
+                articleToEdit.City = article.City;
                 articleToEdit.Image = article.Image;
                 articleToEdit.Overview = article.Overview;
             }

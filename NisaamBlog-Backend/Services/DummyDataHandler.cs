@@ -30,7 +30,6 @@ namespace NisaamBlog_Backend.Services
             "https://images.unsplash.com/photo-1657299143322-934f44698807?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "https://images.unsplash.com/photo-1657299142014-34b66b73e68e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         };
-
         private string[] Titles { get; set; } = new string[]
         {
             "How to eat Amala",
@@ -52,7 +51,7 @@ namespace NisaamBlog_Backend.Services
                     Author = GetRandomName(),
                     LastUpdated = DateTime.Now,
                     Published = DateTime.Now,
-                    Country = "Morocco",
+                    City = "Morocco",
                     Image = GetRandomImage(),
                     Category = ArticleCategory.Lifestyle,
                     Title = GetRandomTitle(),
