@@ -16,7 +16,7 @@ namespace NisaamBlog_Backend.Controllers
         private readonly IDatabase<User> _userDb;
 
         [HttpPost("authenticate")]
-        public ActionResult<string> Authenticate(UserDto userdto)
+        public ActionResult<string> Authenticate(AuthenticatrionRequestBody userdto)
         {
             var user = ValidateUser(userdto);
             if (user == null)
@@ -46,7 +46,7 @@ namespace NisaamBlog_Backend.Controllers
             return Ok(tokenToReturn);
         }
 
-        private User? ValidateUser(UserDto user)
+        private User? ValidateUser(AuthenticatrionRequestBody user)
         {
             return _userDb.Get().Where(x =>
             {

@@ -1,6 +1,6 @@
 ﻿namespace NisaamBlog_Backend.Models
 {
-    public class UserDto
+    public class AuthenticatrionRequestBody
     {
         public string? Email { get; set; }
         public string? Username { get; set; }

@@ -10,8 +10,8 @@ namespace NisaamBlog_Backend.Models
         public string Image { get; set; } = string.Empty;
         public string Content { get; set; } = string.Empty;
         public string City { get; set; } = string.Empty;
-        public string Author { get; set; } = string.Empty;
         public ArticleCategory Category { get; set; }
+        public User? Author { get; set; }
         public DateTime Published { get; set; }
         public DateTime LastUpdated { get; set; }
     }

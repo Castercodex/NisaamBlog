@@ -60,7 +60,7 @@ namespace NisaamBlog_Backend.Controllers
             {
                 Id = generatedId,
                 Title = article.Title,
-                Author = article.Author,
+                Author = new User(),
                 Category = article.Category,
                 Content = article.Content,
                 City = article.Overview,
