@@ -11,11 +11,21 @@ namespace NisaamBlog_Backend.Services
             {
                 Id = "0",
                 City = "Agadir",
-                Email = "admin@nisaamblog.com",
+                Email = "sulaiman@nisaamblog.com",
                 FirstName = "Sulaymahn",
                 LastName = "Mukhtar",
                 Password = "admin",
                 Username = "Unghostdude"
+            },
+            new User
+            {
+                Id = "1",
+                City = "Fez",
+                Email = "edward@nisaamblog.com",
+                FirstName = "Edward",
+                LastName = "Berthjone",
+                Password = "admin",
+                Username = "Castercodex"
             }
         };
 

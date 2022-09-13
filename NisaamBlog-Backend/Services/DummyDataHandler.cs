@@ -39,12 +39,20 @@ namespace NisaamBlog_Backend.Services
             "Cheapest restaurants in Ifrane",
             "I went to Marina Agadir - My Experience"
         };
+        private List<User> Users { get; set; } = new List<User>()
+        {
+            new User
+            {
+                City = "Agadir",
+                Email = "Yoo@gmail.com"
+            }
+        };
 
         public IEnumerable<Article> GenerateArticles(int count = 50)
         {
-            if(count <= 0) count = 1;
+            if (count <= 0) count = 1;
             List<Article> articles = new List<Article>();
-            for(int i = 0;  i < count; i++)
+            for (int i = 0; i < count; i++)
             {
                 articles.Add(new Article
                 {
